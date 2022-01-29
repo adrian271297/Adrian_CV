@@ -592,32 +592,34 @@ background: linear-gradient(90deg,rgba(153,97,130,1)  10%, rgba(128,4,68,1) 100%
 /*------------------------SITUACION ACTUAL-------------------------*/
 .situacion-actual{
 	width: 100%;
-	height: 451px;
+	height: 450px;
 	display: flex;
 		justify-content: center;
 		text-align: center;
-		align-items: center;
+		/*align-items: center;*/
+		padding-top: 50px;
 }
 .img-nc{
 	margin-top: 1%;
-	
 
-	width: 500px;
+	width: 250px;
 	position: relative;
 	padding: 1%;
 
+}
+ div .txt_situacion{
+	display: inline-block;
+	width: 50%;
+	text-align:left;
+	height: 300px;
+}
+div .txt_situacion p {
+	margin:0px;
 }
 .situacion-actual p::first-letter{
 	font-size: 1.6em;
 	color:red;
 }
- div .txt_situacion{
-	display: inline-block;
-	width: 50%;
-	text-align: center;
-	height: 300px;
-}
-
 .situacion-actual p{
 	font-family: 'HP Simplified',Arial, Helvetica, sans-serif;;
 	font-size: 1.5em;
@@ -634,10 +636,9 @@ background: linear-gradient(90deg,rgba(153,97,130,1)  10%, rgba(128,4,68,1) 100%
 	box-shadow: 2px 1px 2px 1px rgba(0,0,0,0.3),4px 4px 2px rgba(0,0,0,0.5);
 }
 .img-ubu{
-	background-position: center;
-	height: 125px;
-	margin: 10px;
-	margin-left: 20px;
+
+	height: 145px;
+	margin-left: 100px;
 	position: relative;
 }
 .img-eplan{
@@ -1016,7 +1017,7 @@ margin:0px;
 	box-sizing: border-box;
 	vertical-align: top;
 	line-height: 1.5em; /* Sets line height to 1.5 times text size */
-    height: 14.5em; /* Sets the div height to 2x line-height (3 times text size) */
+    height: 20em; /* Sets the div height to 2x line-height (3 times text size) */
     width: 100%; /* Use whatever width you want */
     white-space: normal; /* Wrap lines of text */
     overflow: hidden; /* Hide text that goes beyond the boundaries of the div */
@@ -1067,6 +1068,7 @@ font-size: 1.6em;
 	font-weight: 200;
 	line-height: 40px;
 	padding-left: 60px;
+	height: 500px;
 
 
 }
@@ -2721,5 +2723,4 @@ hr {
 #submenu_id_2 ul{
 
 	width: 200px;
-}
 }
