@@ -71,7 +71,7 @@ p{
 	height: 70%;
 	width: 35%;
 	border-radius: 20px;
-	background-image: url('./images/perfil.jpg');
+	background-image: url('./images/me_jpg.png');
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -106,7 +106,7 @@ p{
 	top:7%;
 	width: 100%;
 	height: auto;
-	font-size: 5.5em;
+	font-size: 3em;
 	text-align: center;
 	margin: 0px;
 	padding: 0px;
@@ -806,6 +806,13 @@ div .txt_situacion p {
 	justify-items:center;
 	align-items: center;
 }
+.foto_gnc{
+	grid-column-start: 2;
+	grid-row-start: 3;
+	display: grid;
+	justify-items:center;
+	align-items: center;
+}
 .foto_sinter img{
 	width: 95%;
 }
@@ -817,7 +824,15 @@ div .txt_situacion p {
  	font-family: 'HP Simplified',Arial, Helvetica, sans-serif;;
   	font-weight: 400 !important;
 }
-.txt_garfu p, .txt_sinter p{
+.txt_gnc{
+	grid-column-start: 1;
+	font-size: 1.8em;
+	grid-row-start: 3;
+	text-align: right;
+ 	font-family: 'HP Simplified',Arial, Helvetica, sans-serif;;
+  	font-weight: 400 !important;
+}
+.txt_garfu p, .txt_sinter p, .txt_gnc p{
 	margin-top: 2px ;
 	margin-bottom: 0px;
 	padding: 15px;
@@ -959,7 +974,7 @@ div .txt_situacion p {
   	margin-left: 20px;
   	padding: 10px;
 }
-.txt_garfu ul li,.txt_sinter ul li{
+.txt_garfu ul li,.txt_sinter ul li ,.txt_gnc ul li{
 	list-style: none;
 	text-align: left;
 	font-family: 'HP Simplified',Arial, Helvetica, sans-serif;;
@@ -2076,13 +2091,13 @@ hr {
 	.name{
 		display: inline;
 		margin: 0px ;
-		font-size: 3em;
+		font-size: 2.5em;
 	}
 	.name p, .ingenieria p{
 		margin:15px;
 	}
 	.ingenieria{
-		font-size: 1.75em;
+		font-size: 1.45em;
 		display: inline;
 		margin: 0px ;
 	}
@@ -2214,6 +2229,13 @@ hr {
 	justify-items:center;
 	align-items: center;
 }
+.foto_gnc{
+	grid-row-start: 5;
+	grid-column-start: 1;
+	display: grid;
+	justify-items:center;
+	align-items: center;
+}
 .foto_sinter{
 	grid-row-start: 3;	
 	grid-column-start: 1;
@@ -2229,6 +2251,10 @@ hr {
 	min-width: 300px;
 	width: 95%;
 }
+.foto_gnc img{
+	min-width: 300px;
+	width: 95%;
+}
 
 .txt_garfu{
 	grid-column-start: 1;
@@ -2238,7 +2264,15 @@ hr {
  	font-family: 'HP Simplified',Arial, Helvetica, sans-serif;
   	font-weight: 400 !important;
 }
-.txt_garfu p, .txt_sinter p{
+.txt_gnc{
+	grid-column-start: 1;
+	font-size: 1.4em;
+	grid-row-start: 6;
+	text-align: right;
+ 	font-family: 'HP Simplified',Arial, Helvetica, sans-serif;
+  	font-weight: 400 !important;
+}
+.txt_garfu p, .txt_sinter p, .txt_gnc p{
 	margin-top: 2px ;
 	margin-bottom: 0px;
 	padding: 0px;
@@ -2270,7 +2304,7 @@ hr {
 		padding: 0px;
 	}
 	
-	.txt_garfu .title ,.txt_sinter .title, .subtitle{
+	.txt_garfu .title ,.txt_sinter .title, .subtitle,.txt_gnc{
 		position: relative;
 	margin:auto;
 		text-align: center;
@@ -2349,14 +2383,14 @@ hr {
 	}
 
 	.name{
-		font-size: 3em;
+		font-size: 2.5em;
 		top:15px;
 	}
 	.name p{
 		margin:0px;
 	}
 	.ingenieria{
-		font-size: 2em;
+		font-size: 1.7em;
 	}
 	.fotografia{
 		height: 60%;
@@ -2493,7 +2527,7 @@ hr {
 		top: 10%px;
 	}
 	.name{
-		font-size: 4em;
+		font-size: 3em;
 		top: 5px;
 	}
 	.name p{
@@ -2501,7 +2535,7 @@ hr {
 		margin-top: 10%;
 	}
 	.ingenieria {
-		font-size: 1.75em;
+		font-size: 1.45em;
 		margin: 0px;
 		top:0px;
 	}
@@ -2579,7 +2613,7 @@ hr {
 		height: 550px;
 	}
 	.name{
-		font-size: 5em;
+		font-size: 3em;
 	}
 	.iconNav {
 		display:none !important;
@@ -2677,6 +2711,13 @@ hr {
 	justify-items:center;
 	align-items: center;
 }
+.foto_gnc{
+	grid-row-start: 5;
+	grid-column-start: 1;
+	display: grid;
+	justify-items:center;
+	align-items: center;
+}
 .foto_sinter img{
 	width: 95%;
 }
@@ -2688,7 +2729,7 @@ hr {
  	font-family: 'HP Simplified',Arial, Helvetica, sans-serif;
   	font-weight: 400 !important;
 }
-.txt_garfu p, .txt_sinter p{
+.txt_garfu p, .txt_sinter p, .txt_gnc p{
 	margin-top: 2px ;
 	margin-bottom: 0px;
 	padding: 15px;
@@ -2703,7 +2744,15 @@ hr {
   	padding: 5px;
 }
 
-
+.txt_gnc{
+	grid-column-start: 1;
+	font-size: 1.8em;
+	grid-row-start: 6;
+	text-align: right;
+  	font-family: 'HP Simplified',Arial, Helvetica, sans-serif;
+  	font-weight: 400;
+  	padding: 5px;
+}
 
 }
 @media screen and (min-width: 1601px){
